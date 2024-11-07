@@ -1,0 +1,112 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+.navbar { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: #f8f8f8; 
+    border-bottom: 1px solid #ddd; 
+} 
+ 
+.logo { 
+    font-size: 1.5em; 
+    font-weight: bold; 
+} 
+ 
+.menu a { 
+    margin: 0 15px; 
+    text-decoration: none; 
+    color: #333; 
+} 
+ 
+.auth-buttons button { 
+    margin: 0 5px; 
+    padding: 8px 16px; 
+    font-size: 0.9em; 
+} 
+ 
+.login { 
+    background-color: transparent; 
+    border: 1px solid #333; 
+    color: #333; 
+} 
+ 
+.get-started { 
+    background-color: #0073e6; 
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+} 
+ 
+.hero-section { 
+    display: flex; 
+    align-items: center; 
+    padding: 80px; 
+} 
+ 
+.hero-image img { 
+    height: 700px; 
+    width: 900px; 
+    border-radius: 80px; 
+} 
+ 
+.hero-text { 
+    margin-left: 200px; 
+} 
+ 
+.hero-text h1 { 
+    font-size: 70px; 
+    margin: 0; 
+} 
+ 
+.hero-text p { 
+    margin: 40px 0; 
+    color: rgb(255, 0, 0); 
+} 
+ 
+.stats { 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+} 
+ 
+.stat { 
+    text-align: center; 
+    font-size: 0.9em; 
+    color: #333; 
+}
+.statt {
+    height: 700px; 
+    width: 900px; 
+    border-radius: 80px; 
+    margin-left: 900px;
+    margin-right: 170px;
+    margin-top: 100px;
+}
+.textt {
+    position: absolute;
+    top: 1200px;
+    right: 1100px;
+}
+.smss {
+    position: absolute;
+    top: 1250px;
+    right: 450px;
+}
+.sms {
+    position: absolute;
+    top: 1370px;
+    right: 550px;
+}
+.butt {
+    position: absolute;
+    top: 1630px;
+    right: 1150px;
+    gap: 40px;
+}
